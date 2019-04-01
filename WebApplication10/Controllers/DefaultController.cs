@@ -9,5 +9,10 @@ namespace WebApplication10.Controllers
 {
     public class DefaultController : ApiController
     {
+        [HttpGet]
+        public string GetTest()
+        {
+            return "123";
+        }
     }
 }
