@@ -12,7 +12,7 @@ namespace WebApplication10.Controllers
         [HttpGet]
         public string GetTest()
         {
-            return "123";
+            return "123456";
         }
     }
 }
